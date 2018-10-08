@@ -1,0 +1,180 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\KT\TS-0240\´úÂë\TS-8209A alpha\PROJECT\TS-8209A.uvprojx
+Project File Date:  10/10/2017
+
+<h2>Output:</h2>
+Build target 'TS-8209A'
+compiling exfuns.c...
+..\SYSTEM\fatfs\exfuns\exfuns.c(168): warning:  #550-D: variable "curpct" was set but never used
+        u8 curpct=0;
+..\SYSTEM\fatfs\exfuns\exfuns.c: 1 warning, 0 errors
+linking...
+Program Size: Code=79484 RO-data=15556 RW-data=716 ZI-data=8992244  
+FromELF: creating hex file...
+"..\OBJ\TS-8209A.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\OBJ\\TS-8209A.axf" 
+Set JLink Project File to "D:\KT\TS-0240\´úÂë\TS-8209A alpha\PROJECT\JLinkSettings.ini"
+* JLink Info: Device "STM32F429IG" selected.
+ 
+JLink info:
+------------
+DLL: V6.12d, compiled Dec 21 2016 16:56:08
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: AP-IDR: 0x24770011, Type: AHB-AP
+* JLink Info: AHB-AP ROM: 0xE00FF000 (Base addr. of first ROM table)
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 000BB00C SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 003BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 002BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 003BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 000BB9A1 TPIU
+* JLink Info: ROMTbl 0 [5]: FFF42000, CID: B105900D, PID: 000BB925 ETM
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F429IG
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+points: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+pp.c...
+compiling os_core.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_int.c...
+compiling os_mem.c...
+compiling os_msg.c...
+compiling os_mutex.c...
+compiling os_pend_multi.c...
+compiling os_prio.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_stat.c...
+compiling os_task.c...
+compiling os_tick.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_var.c...
+compiling os_cpu_c.c...
+compiling os_app_hooks.c...
+linking...
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_core.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_msc_bot.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching ff.o(.bss).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching exfuns.o(.bss).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_msc_core.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching cpu_core.o(.bss).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching exfuns.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching tjpgd.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.bss).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching delay.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching ltdc.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_prio.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching task.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_core.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_stdreq.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching ftl.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_cpu_c.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching ff.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_core.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_msc_core.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching w25qxx.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_msc_scsi.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usbh_usr.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching usb_func.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching ft5206.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching gt9147.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6406E: No space in execution regions with .ANY selector matching os_var.o(.data).
+..\OBJ\TS-8209A.axf: Error: L6407E: Sections of aggregate size 0x1cc bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 81 error messages.
+"..\OBJ\TS-8209A.axf" - 81 Error(s), 0 Warning(s).
+Target not created
